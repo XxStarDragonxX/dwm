@@ -143,7 +143,7 @@ static Key keys[] = {
 	{ MODKEY,						XK_KP_Divide, spawn, {.v = animalcrossingtime} },
 
 	/* scrot */
-	{ MODKEY,						XK_Print, spawn, {.v = scrotter} },
+	{ ControlMask,						XK_Print, spawn, {.v = scrotter} },
 };
 
 /* button definitions */
